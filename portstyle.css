@@ -1,0 +1,342 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.top {
+    background-image: url("Images/hero.png");
+    background-position: center;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgb(244, 244, 244);
+    position: relative;
+    bottom: 58px;
+
+}
+
+.margin{
+    margin: 4%;
+}
+
+#text {
+    display: inline-block;
+    height: 80vh;
+    width: 40%;
+}
+
+
+h1 {
+    font-family: 'Sora', sans-serif;
+    font-size: 64px;
+    position: relative;
+    top: 20%;
+}
+
+h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 45px;
+    position: absolute;
+    top: 24px; 
+}
+
+h3 {
+    font-family: 'Sora', sans-serif;
+    font-size: 45px; 
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 16%;
+}
+
+h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    position: relative;
+    top: 190px;
+}
+
+h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    position: relative;
+    top: 9%;
+}
+
+#but {
+    position: relative;
+    bottom: 160px;
+}
+
+
+.solid {
+    background-color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+  border: none;
+  color: white;
+  padding: 24px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.stroke {
+    background-color: #ffffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+  border: 3px solid;
+  color: rgb(0, 0, 0);
+  padding: 22px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.mid {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+#texttwo {
+    display: inline-block;
+    height: 80vh;
+    margin: 4%;
+}
+
+.thirdsec {
+    width: 50vw;
+    margin: 4%;
+    position: relative;
+}
+
+/* .gallery {
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    left: 5%;
+    
+} */
+
+.grid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-top: 15%;
+
+  }
+
+#flyer, #mobile, #logo, #threede, #matte, #card {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.footer {
+    margin-top: 20%;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#talk {
+    width: 50vw;
+    text-align: center;
+    position: relative;
+    bottom: 52px;
+}
+
+.social_links {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 50px;
+}
+
+
+#border {
+    margin-top: 4%;
+    height: 2vh;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;}
+
+
+
+    #cursor1 {
+        animation: typing steps(12);
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        background-color: #ffffff;
+        transform-box: fill-box;
+        transform-origin: left;
+        offset-path: path("M33 153H207.5");
+    }
+    
+    @keyframes typing{
+        100% {
+            offset-distance: 100%;
+        }
+    }
+    
+    #cursor2 {
+        animation: typing2 steps(20);
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        background-color: #ffffff;
+        transform-box: fill-box;
+        transform-origin: left;
+        offset-path: path("M510 208H745.5");
+    }
+    
+    @keyframes typing2{
+        100% {
+            offset-distance: 100%;
+        }
+    }
+    #cursor3 {
+        animation: typing3 steps(16);
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        background-color: #ffffff;
+        transform-box: fill-box;
+        transform-origin: left;
+        offset-path: path("M433 407H668.5");
+    }
+    
+    @keyframes typing3{
+        100% {
+            offset-distance: 100%;
+        }
+    }
+    
+    #xd {
+        animation: xd cubic-bezier(0.66,-0.01, 0.61, 1.01);
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+         
+    }
+    
+    @keyframes xd{
+        0% {transform: scale(0);}
+    
+        20% {transform: scale(1);}
+    
+        40% {transform: scale(0);}
+    
+        60% {transform: scale(0);}
+    
+        80% {transform: scale(0);}
+    
+        100% {transform: scale(0);}
+    }
+    
+    
+    #ps {
+        animation: ps cubic-bezier(0.66,-0.01, 0.61, 1.01);
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+         
+    }
+    
+    @keyframes ps{
+        0% {transform: scale(0);}
+    
+        20% {transform: scale(0);}
+    
+        40% {transform: scale(1);}
+    
+        60% {transform: scale(0);}
+    
+        80% {transform: scale(0);}
+    
+        100% {transform: scale(0);}
+    }
+    
+    #ai {
+        animation: ai cubic-bezier(0.66,-0.01, 0.61, 1.01);
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+         
+    }
+    
+    @keyframes ai{
+        0% {transform: scale(0);}
+    
+        20% {transform: scale(0);}
+    
+        40% {transform: scale(0);}
+    
+        60% {transform: scale(1);}
+    
+        80% {transform: scale(0);}
+    
+        100% {transform: scale(0);}
+    }
+    
+    #html {
+        animation: html cubic-bezier(0.66,-0.01, 0.61, 1.01);
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+         
+    }
+    
+    @keyframes html{
+        0% {transform: scale(0);}
+    
+        20% {transform: scale(0);}
+    
+        40% {transform: scale(0);}
+    
+        60% {transform: scale(0);}
+    
+        80% {transform: scale(1);}
+    
+        100% {transform: scale(0);}
+    }
+    
+    #css {
+        animation: css cubic-bezier(0.66,-0.01, 0.61, 1.01);
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+         
+    }
+    
+    @keyframes css{
+        0% {transform: scale(0);}
+    
+        20% {transform: scale(0);}
+    
+        40% {transform: scale(0);}
+    
+        60% {transform: scale(0);}
+    
+        80% {transform: scale(0);}
+    
+        100% {transform: scale(1);}
+    }
